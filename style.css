@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    
+}
+#container{
+    width: 70%;
+    height: 650px;
+    margin:  0px auto;
+}
+
+.container{
+
+    background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    height: 60px;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.container:hover{
+    color: yellow;
+    background-color: rebeccapurple;
+    background: radial-gradient(circle at 7.5% 24%, rgb(237, 161, 193) 0%, rgb(250, 178, 172) 25.5%, rgb(190, 228, 210) 62.3%, rgb(215, 248, 247) 93.8%);
+    border: 10px darkblue;
+    cursor: pointer;
+}
+
+
+.profile{
+    /*background-color: seagreen;*/
+    text-align: center;
+}
+
+.profile > #date{
+    
+    margin-left: 300px;
+    margin-left: -70px;
+    margin-top: 20px;
+}
+
+.profile > h2{
+    /*background-color: blue;*/
+    padding-right: 300px;
+    padding-top: 10px;
+    font-size: 33px;
+    margin-left: -60px;
+    margin-top: 0px;
+}
+
+.profile > #aqui{
+    font-family: cursive;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#date{
+    /*background-color: rgb(0, 123, 255);*/
+    padding-right: 300px;
+}
+
+#main-2 > h2{
+    text-transform: uppercase;
+    /*background-color: firebrick;*/
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#form-task{
+    margin: 0px auto;
+    margin-left: 233px;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    width: 490px;
+    height: 90px;
+    border-radius: 20px;
+}
+
+#form-task > input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 370px;
+    height: 30px;
+    padding-left: 27px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    border-radius: 90px;
+    font-size: 19px;
+}
+
+#form-task > button{
+    width: 60px;
+    height: 30px;
+}
+
+.task-container{
+    /*background-color: rgb(97, 50, 205);*/
+    width: 500px;
+    height: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 0px auto;
+    /*overflow: hidden;
+    overflow: scroll;*/
+}
+
+.know{
+    width: 470px;
+    height: 60px;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    border-radius: 20px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+
+.know p i{
+    display: inline-block;
+    width: 210px ;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    /*background-color: rgb(236, 171, 50);*/
+}
+.delete{
+    display: inline-block;
+    width: 110px;
+    height: 23px;
+    background-color: rgb(228, 228, 7);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
