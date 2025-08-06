@@ -41,7 +41,7 @@ button.addEventListener("submit", function (e) {
 
         getTask();
         button.reset();
-    }/***/
+    }/**/
 
 })
 
