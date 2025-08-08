@@ -1,11 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+
 }
 body{
     width: 100%;
     background:  #F7F8FA;
-    background-color: #B00020;
+    background-color: #78b000;
 }
 
 #container{
