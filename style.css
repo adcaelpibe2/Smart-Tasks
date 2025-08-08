@@ -3,7 +3,9 @@
     padding: 0px;
 }
 body{
+    width: 100%;
     background:  #F7F8FA;
+    background-color: #B00020;
 }
 
 #container{
