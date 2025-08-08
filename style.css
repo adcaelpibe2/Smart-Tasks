@@ -68,7 +68,7 @@ body{
 }
 
 .profile > #aqui{
-    font-family: cursive;
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-bottom: 20px;
     text-transform: uppercase;
