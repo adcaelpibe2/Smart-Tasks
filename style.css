@@ -7,7 +7,9 @@
 body{
     width: 100%;
     background:  #F7F8FA;
-    background-color: #b0ad00;
+    background-color: #b02600;
+    overflow-x: hidden;
+
 }
 
 #container{
