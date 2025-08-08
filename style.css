@@ -5,12 +5,11 @@
 body{
     background:  #F7F8FA;
 }
+
 #container{
     width: 70%;
     height: auto;
     margin: 0px auto;
-    background-color: #B00020;
-
 }
 
 .container{
@@ -120,7 +119,7 @@ body{
 }
 
 .task-container{
-    width: 500px;
+    width: 50%;
     height: 100%;
     min-height: 300px;
     margin-top: 20px;
@@ -146,14 +145,15 @@ body{
 
 .know p i{
     display: inline-block;
-    width: 210px ;
+    width: 45%;
     font-size: 20px;
     margin-top: 20px;
     font-weight: bold;
 }
+
 .delete{
     display: inline-block;
-    width: 110px;
+    width: 24%;
     height: 23px;
     border-radius: 10px;
     text-decoration: none;
@@ -173,7 +173,6 @@ body{
     
     .container{
         width: 100%;
-        margin-left: 5.7rem;
     }
 
     .profile{
@@ -190,23 +189,25 @@ body{
 
     .profile > #aqui{
         width: 100%;
-        margin-left: 5rem;
     }
 
     #main-2 > h2{
         width: 100%;
-        margin-left: 3rem;    
     }
     
     #form-task{
         width: 100%;
-        margin-left: 5rem;
     }
 
     #form-task > input{
         width: 60%;
         height: 32%;
     }
+    
+    .task-container{
+        width: 90%;
+    }
+
 
 }
 
@@ -214,7 +215,6 @@ body{
 
     .container{
         width: 100%;
-        margin-left: 5.7rem;
     }
 
     .profile > #date{
@@ -227,12 +227,10 @@ body{
     
     .profile > #aqui{
         width: 100%;
-        margin-left: 5rem;
     }
 
     #form-task{
         width: 100%;
-        margin-left: 5rem;
     }
     
     #form-task > input{
@@ -242,8 +240,12 @@ body{
 
     #main-2 > h2{
         width: 100%;
-        margin-left: 3rem;    
     }
+
+    .task-container{
+        width: 90%;
+    }
+    
 
 }
   
@@ -252,7 +254,6 @@ body{
 
     .container{
         width: 100%;
-        margin-left: 4rem;
     }
     
     .profile > #date{
@@ -265,12 +266,10 @@ body{
     
     .profile > #aqui{
         width: 100%;
-        margin-left: 5rem;
     }
 
     #form-task{
         width: 100%;
-        margin-left: 5rem;
     }
     
     #form-task > input{
@@ -280,8 +279,12 @@ body{
 
     #main-2 > h2{
         width: 100%;
-        margin-left: 3rem;    
     }
+
+    .task-container{
+        width: 90%;
+    }
+    
 
 }
   
@@ -290,7 +293,6 @@ body{
 
     .container{
         width: 100%;
-        margin-left: 2rem;
     }
 
     .profile > #date{
@@ -303,12 +305,10 @@ body{
     
     .profile > #aqui{
         width: 100%;
-        margin-left: 5rem;
     }
 
     #form-task{
         width: 100%;
-        margin-left: 5rem;
     }
     
     #form-task > input{
@@ -318,9 +318,12 @@ body{
 
     #main-2 > h2{        
         width: 100%;
-        margin-left: 3rem;    
     }
 
+    .task-container{
+        width: 90%;
+    }
+    
 }
 
 
@@ -328,7 +331,6 @@ body{
 
     .container{
         width: 100%;
-        margin-left: 0rem;
     }
 
     .profile > #date{
@@ -341,12 +343,10 @@ body{
     
     .profile > #aqui{
         width: 100%;
-        margin-left: 1rem;
     }
 
     #form-task{
         width: 100%;
-        margin-left: 4rem;
     }
     
     #form-task > input{
@@ -356,8 +356,11 @@ body{
 
     #main-2 > h2{
         width: 100%;
-        margin-left: 3rem;    
     }
+    .task-container{
+        width: 90%;
+    }
+    
 
 }
 
@@ -366,7 +369,6 @@ body{
 
     .container{
         width: 100%;
-        margin-left: 0rem;
     }
 
     .profile > #date{
@@ -379,12 +381,10 @@ body{
     
     .profile > #aqui{
         width: 100%;
-        margin-left: 1rem;
     }
 
     #form-task{
         width: 100%;
-        margin-left: 2.7rem;
     }
     
     #form-task > input{
@@ -394,7 +394,10 @@ body{
 
     #main-2 > h2{
         width: 100%;
-        margin-left: 3rem;    
     }
+    .task-container{
+        width: 90%;
+    }
+    
 
 }
