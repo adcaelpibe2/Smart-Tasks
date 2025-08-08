@@ -7,7 +7,7 @@
 body{
     width: 100%;
     background:  #F7F8FA;
-    background-color: #b02600;
+    background-color: #78b000;
     overflow-x: hidden;
 
 }
@@ -176,6 +176,13 @@ body{
 
 
 @media (max-width: 400px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    
+    }
     
     .container{
         width: 100%;
@@ -218,6 +225,13 @@ body{
 }
 
 @media (min-width: 401px) and (max-width: 449px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    
+    }
 
     .container{
         width: 100%;
