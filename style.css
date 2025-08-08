@@ -135,10 +135,11 @@ body{
 .know{
     width: 94%;
     height: 60px;
+    min-height: 2rem;
     border-radius: 20px;
     text-align: center;
     margin: 0px auto;
-    margin-top: 10px;
+    margin-top: 0.7rem;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.03); 
@@ -149,8 +150,9 @@ body{
 .know p i{
     display: inline-block;
     width: 45%;
+    min-height: 2rem;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 1.2rem;
     font-weight: bold;
 }
 
@@ -215,7 +217,9 @@ body{
         width: 100%;
         font-size: 1rem;
     }
-
+    .know p i{
+        margin-top: 0.4rem;
+    }
 
 }
 
