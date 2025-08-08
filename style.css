@@ -105,10 +105,9 @@ body{
 #form-task > input{
     margin-top: 20px;
     margin-left: 10px;
-    width: 370px;
+    margin-left: 2rem;
     width: 77%;
-
-    height: 30px;
+    min-height: 2.4rem;
     padding-left: 27px;
     padding-top: 7px;
     padding-bottom: 7px;
