@@ -44,8 +44,9 @@ body{
 }
 
 .profile > #date{
-    margin-left: 300px;
-    margin-left: -70px;
+    display: block;
+    width: 10%;
+    padding-right: 22rem;
     margin-top: 20px;
     margin: 0px auto;
 }
@@ -178,7 +179,7 @@ body{
     }
 
     .profile > #date{
-        width: 50%;
+        width: 34%;
     }
 
     .profile > h2{
@@ -215,7 +216,7 @@ body{
     }
 
     .profile > #date{
-        width: 50%;
+        width: 34%;
     }
 
     .profile > h2{
@@ -253,7 +254,7 @@ body{
     }
     
     .profile > #date{
-        width: 50%;
+        width: 34%;
     }
 
     .profile > h2{
@@ -291,7 +292,7 @@ body{
     }
 
     .profile > #date{
-        width: 50%;
+        width: 34%;
     }
 
     .profile > h2{
@@ -329,7 +330,7 @@ body{
     }
 
     .profile > #date{
-        width: 50%;
+        width: 30%;
     }
 
     .profile > h2{
@@ -367,7 +368,7 @@ body{
     }
 
     .profile > #date{
-        width: 50%;
+        width: 30%;
     }
 
     .profile > h2{
