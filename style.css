@@ -7,8 +7,8 @@ body{
 }
 #container{
     width: 70%;
-    height: 650px;
-    margin:  0px auto;
+    height: auto;
+    margin: 0px auto;
 }
 
 .container{
@@ -37,13 +37,17 @@ body{
 
 .profile{
     text-align: center;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 0.5rem;
 }
 
 .profile > #date{
-    
     margin-left: 300px;
     margin-left: -70px;
     margin-top: 20px;
+    margin: 0px auto;
 }
 
 .profile > h2{
@@ -52,6 +56,9 @@ body{
     font-size: 33px;
     margin-left: -60px;
     margin-top: 0px;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
 }
 
 .profile > #aqui{
@@ -75,22 +82,26 @@ body{
 }
 
 #form-task{
-    margin: 0px auto;
     margin-left: 233px;
     margin-bottom: 20px;
     background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     width: 490px;
     height: 90px;
+    width: 49%;
+    min-height: 5.6rem;
     border-radius: 20px;
     background:  #F7F8FA;
     color: #1E1E1E;
     border-radius: 10px;
+    margin: 0px auto;
 }
 
 #form-task > input{
     margin-top: 20px;
     margin-left: 10px;
     width: 370px;
+    width: 77%;
+
     height: 30px;
     padding-left: 27px;
     padding-top: 7px;
@@ -152,4 +163,235 @@ body{
     border-radius: 6px;
     font-weight: bold;
     padding: 2px 4px;
+}
+
+
+@media (max-width: 400px) {
+    
+    .container{
+        width: 100%;
+        margin-left: 5.7rem;
+    }
+
+    .profile{
+        margin: 0px auto;
+    }
+
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    #main-2 > h2{
+        width: 100%;
+        margin-left: 3rem;    
+    }
+    
+    #form-task{
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    #form-task > input{
+        width: 60%;
+        height: 32%;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width: 449px) {
+
+    .container{
+        width: 100%;
+        margin-left: 5.7rem;
+    }
+
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+    
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    #form-task{
+        width: 100%;
+        margin-left: 5rem;
+    }
+    
+    #form-task > input{
+        width: 60%;
+        height: 32%;
+    }
+
+    #main-2 > h2{
+        width: 100%;
+        margin-left: 3rem;    
+    }
+
+}
+  
+
+@media (min-width: 450px) and (max-width: 500px) {
+
+    .container{
+        width: 100%;
+        margin-left: 4rem;
+    }
+    
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+    
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    #form-task{
+        width: 100%;
+        margin-left: 5rem;
+    }
+    
+    #form-task > input{
+        width: 67%;
+        height: 32%;
+    }
+
+    #main-2 > h2{
+        width: 100%;
+        margin-left: 3rem;    
+    }
+
+}
+  
+
+@media (min-width: 501px) and (max-width: 550px) {
+
+    .container{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+    
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    #form-task{
+        width: 100%;
+        margin-left: 5rem;
+    }
+    
+    #form-task > input{
+        width: 67%;
+        height: 32%;
+    }
+
+    #main-2 > h2{        
+        width: 100%;
+        margin-left: 3rem;    
+    }
+
+}
+
+
+@media (min-width: 550px) and (max-width: 600px) {
+
+    .container{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+    
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    #form-task{
+        width: 100%;
+        margin-left: 4rem;
+    }
+    
+    #form-task > input{
+        width: 67%;
+        height: 32%;
+    }
+
+    #main-2 > h2{
+        width: 100%;
+        margin-left: 3rem;    
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 700px) {
+
+    .container{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .profile > #date{
+        width: 50%;
+    }
+
+    .profile > h2{
+        width: 50%;
+    }
+    
+    .profile > #aqui{
+        width: 100%;
+        margin-left: 1rem;
+    }
+
+    #form-task{
+        width: 100%;
+        margin-left: 2.7rem;
+    }
+    
+    #form-task > input{
+        width: 70%;
+        height: 32%;
+    }
+
+    #main-2 > h2{
+        width: 100%;
+        margin-left: 3rem;    
+    }
+
 }
